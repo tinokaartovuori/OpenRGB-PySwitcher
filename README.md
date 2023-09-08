@@ -1,2 +1,2 @@
 # OpenRGB-PySwitcher
-Python Scripts that change OpenRGB Profiles
+Python Script that change OpenRGB Profiles
