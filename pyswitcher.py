@@ -14,9 +14,10 @@ def load_openrgb_profile(profile_name):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         print("Usage: python script_name.py <profile_name>")
         sys.exit(1)
 
-    desired_profile = sys.argv[1]
+    desired_profile = " ".join(sys.argv[1:])
     load_openrgb_profile(desired_profile)
+    
